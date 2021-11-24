@@ -1,0 +1,9 @@
+package example2;
+
+public class no1 {
+	public static void main(String[] args) {
+		 int number = (int)(Math.random() * 781);
+		 System.out.println("no= "+number);
+	}
+
+}
