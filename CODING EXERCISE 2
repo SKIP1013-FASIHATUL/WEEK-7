@@ -1,0 +1,18 @@
+package example1;
+
+public class loop2 {
+public static void main(String[] args) {
+	int k=20,j=20;
+	while (k > 10) {
+        System.out.println("k= "+ k);
+          k--; 
+    }
+	do {
+		System.out.println("j= "+j);
+		j--;
+	}while (j>10);
+	
+	  for (int l=20; l>10; l--) {
+          System.out.println("l = " + l);
+      }
+}}
