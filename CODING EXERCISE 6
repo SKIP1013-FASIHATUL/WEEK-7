@@ -1,0 +1,24 @@
+package example3;
+import java.util.Scanner;
+public class no1 {
+public static void main(String[] args) {
+	int pass=12345, i=0;
+	
+	Scanner sc=new Scanner(System.in);
+	  System.out.println("Enter password : ");
+      pass = sc.nextInt();
+      if(pass==12345)
+          System.out.println("Welcome!");
+          do {
+        	  if(pass!=12345) {
+        		  System.out.println("Enter password : ");
+                  pass = sc.nextInt();  
+              System.out.println("card declined");
+              i++;
+          }
+          }while(i<3); 
+         
+         
+      }
+	}
+
