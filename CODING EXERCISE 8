@@ -1,0 +1,20 @@
+package example3;
+import java.util.Scanner;
+public class no3 {
+public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	
+	System.out.println("create your password");
+	String password=sc.next();
+	    
+ 		char ch = password.charAt(0);
+		
+
+	 if((ch >= 'A' &&ch <= 'Z')&&(ch >= 'a' && ch <= 'z')&&(ch >= '0' && ch <= '9'))
+			System.out.println("your password is invalid");
+	 else 
+		 System.out.println("your password is valid");
+	}	
+	
+}
+
